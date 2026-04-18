@@ -3,7 +3,7 @@ name: Android Release
 on:
   push:
     branches:
-      - "**"
+      - '**'  # 修复：必须加单引号
 
 concurrency:
   group: release-${{ github.workflow }}-${{ github.ref }}
