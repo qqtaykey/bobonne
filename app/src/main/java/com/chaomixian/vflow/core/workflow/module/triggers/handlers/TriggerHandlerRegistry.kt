@@ -28,9 +28,12 @@ object TriggerHandlerRegistry {
         register(KeyEventTriggerModule().id) { KeyEventTriggerHandler() }
         register(BackTapTriggerModule().id) { BackTapTriggerHandler() }
         register(AppStartTriggerModule().id) { AppStartTriggerHandler() }
+        register(AppPackageTriggerModule().id) { AppPackageTriggerHandler() }
+        register(ClipboardTriggerModule().id) { ClipboardTriggerHandler() }
         register(TimeTriggerModule().id) { TimeTriggerHandler() }
         register(BatteryTriggerModule().id) { BatteryTriggerHandler() }
         register(PowerTriggerModule().id) { PowerTriggerHandler() }
+        register(ScreenTriggerModule().id) { ScreenTriggerHandler() }
         register(WifiTriggerModule().id) { WifiTriggerHandler() }
         register(BluetoothTriggerModule().id) { BluetoothTriggerHandler() }
         register(SmsTriggerModule().id) { SmsTriggerHandler() }
