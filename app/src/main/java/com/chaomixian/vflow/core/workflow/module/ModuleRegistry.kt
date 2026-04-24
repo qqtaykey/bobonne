@@ -92,7 +92,6 @@ object ModuleRegistry {
         register(InputTextModule(), context)
         register(CaptureScreenModule(), context)
         register(OCRModule(), context)
-        register(ImageRecognitionModule(), context)
         register(AgentModule(), context)
         register(AutoGLMModule(), context)
         register(FindTextUntilModule(), context)
