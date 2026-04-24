@@ -464,24 +464,6 @@
     <string name="option_vflow_trigger_sms_content_contains">内容包含</string>
     <string name="option_vflow_trigger_sms_content_not_contains">内容不包含</string>
     <string name="option_vflow_trigger_sms_content_regex">正则匹配</string>
-
-    <!-- 图片识别 -->
-    <string name="module_vflow_interaction_image_recognition_name">图片识别</string>
-    <string name="module_vflow_interaction_image_recognition_desc">识别屏幕上的图片并获取其坐标位置</string>
-    <string name="param_vflow_interaction_image_recognition_mode_name">模式</string>
-    <string name="param_vflow_interaction_image_recognition_mode_opt_screenshot">屏幕截图</string>
-    <string name="param_vflow_interaction_image_recognition_mode_opt_image">输入图片</string>
-    <string name="param_vflow_interaction_image_recognition_image_name">输入图片</string>
-    <string name="param_vflow_interaction_image_recognition_select_image_region_name">图片范围</string>
-    <string name="param_vflow_interaction_image_recognition_select_image_region_hint">点击+号选择图片区域</string>
-    <string name="param_vflow_interaction_image_recognition_image_coordinates_name">图片坐标</string>
-    <string name="param_vflow_interaction_image_recognition_image_coordinates_hint">自动生成，可手动修改</string>
-    <string name="output_vflow_interaction_image_recognition_success_name">是否成功</string>
-    <string name="output_vflow_interaction_image_recognition_image_region_name">图片区域</string>
-    <string name="output_vflow_interaction_image_recognition_image_coordinates_name">图片坐标</string>
-    <string name="output_vflow_interaction_image_recognition_screenshot_name">截图</string>
-    <string name="summary_vflow_interaction_image_recognition_screenshot">从屏幕截图中识别图片</string>
-    <string name="summary_vflow_interaction_image_recognition_image">从输入图片中识别图片</string>
     <string name="module_vflow_trigger_call_name">电话触发</string>
     <string name="module_vflow_trigger_call_desc">当有来电、通话接通或挂断时触发工作流</string>
     <string name="option_vflow_trigger_call_type_any">任意</string>
@@ -1001,8 +983,6 @@
     <string name="param_vflow_interaction_ocr_search_strategy_opt_confidence">置信度最高</string>
     <string name="param_vflow_interaction_ocr_region_name">识别区域（可选）</string>
     <string name="param_vflow_interaction_ocr_region_hint">留空则识别全屏</string>
-    <string name="param_vflow_interaction_ocr_select_region_name">选取识别区域</string>
-    <string name="param_vflow_interaction_ocr_select_region_hint">留空则识别全屏</string>
     <!-- OCR 输出 -->
     <string name="output_vflow_interaction_ocr_success_name">是否成功</string>
     <string name="output_vflow_interaction_ocr_full_text_name">识别到的文字</string>
